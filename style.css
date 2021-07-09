@@ -1,0 +1,15 @@
+/*
+.carousel-item {
+    height: 685px;
+    width: 800px;
+}
+*/
+.buy-now {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+
+}
