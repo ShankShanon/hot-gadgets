@@ -4,6 +4,9 @@
     width: 800px;
 }
 */
+a {
+    text-decoration: none;
+}
 .buy-now {
     background-color: black;
     color: #fff;
@@ -12,4 +15,57 @@
     padding: 9px 25px;
     cursor: pointer;
 
+}
+
+#bg-1 {
+    background-image: url(/bg-1.png);
+    background-repeat: no-repeat;
+}
+#catagories {
+    background-image: url(/bg-2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+#carouselExampleSlidesOnly {
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 50px;
+}
+h3 {
+    margin-bottom: 30px;
+}
+.card-text {
+    text-align: center;
+}
+.card {
+    text-decoration: none;
+
+}
+
+
+.category-section {
+    margin-bottom: 80px;
+}
+
+.title-pad {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.categories-border {
+    border-bottom: 10px solid  #FFBB24;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}  
+
+.category-item {
+    padding:  20px 20px;
+    border: none;
+    box-shadow: 5px 5px 10px lightseagreen;
+}
+footer {
+    text-align: center;
+}
+#footer {
+    font-family: 'Sedgwick Ave', cursive;
 }

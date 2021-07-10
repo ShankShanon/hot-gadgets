@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--Internal CSS-->
@@ -58,7 +63,7 @@
                 <button class="buy-now">Buy Now</button>
               </div>
 
-                <div class="col-md-7 d-flex">
+                <div class="col-md-7 d-flex" id="bg-1">
                     <img src="/banner-products/product-1.png" class="d-block w-100" alt="...">
                   </div>
 
@@ -102,11 +107,160 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        
       </header>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <!--Catagories Smartphones-->
+    <div id="catagories">
+
+      <div class="container" id="products" >
+        <h3> Smartphones</h3>
+        <a href="#laptops" class="d-flex justify-content-end">see all</a>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+              <img src="/phone/phone-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Realmi 8</h5>
+                <p class="card-text">Best Mid-budget value for the price type phone</p>
+                <h5>$450</h5>
+              </div>
+            
+                <button class="buy-now">Buy Now</button>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+              <img src="/phone/phone-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Iphone 11 pro</h5>
+                <p class="card-text">This iphone model comes with A13 Bionic chip.</p>
+                <h5>$999</h5>
+              </div>
+              <button class="buy-now">Buy Now</button>
+              <div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+              <img src="/phone/phone-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Samsung Galaxy S21 ultra</h5>
+                <p class="card-text">The allrounder phone for professional people.</p>
+                <h5>$850</h5>
+              </div>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+      
+    <!--Catagories Laptop-->
+    <div id="catagories">
+
+      <div class="container" id="laptops" >
+        <h3> Smartphones</h3>
+        <a href="#products" class="d-flex justify-content-end">see all</a>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+              <img src="/laptop/product-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">RedmiBook 14</h5>
+                <p class="card-text">Best Mid-budget value for the price type laptop</p>
+                <h5>$899</h5>
+              </div>
+            
+                <button class="buy-now">Buy Now</button>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+              <img src="/laptop/product-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Razer Blade 2020</h5>
+                <p class="card-text">gaming beast on it's way</p>
+                <h5>$1999</h5>
+              </div>
+              <button class="buy-now">Buy Now</button>
+              <div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+              <img src="/laptop/product-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Lenovo idea pad</h5>
+                <p class="card-text">powered by intel i5 11 Gen processore </p>
+                <h5>$1200</h5>
+              </div>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+<!--lAST CATAGORIES-->
+<section class="category-section">
+  <div class="container">
+    <div class="container container-catagories">
+      <div class="catagories d-flex justify-content-center">
+        <div id="catagories-bg">
+          <h3 class="categories-border">Categories</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row ">
+            <div class="col-md-6 d-flex align-items-center justify-content-center ">
+              <div class="card card-item category-item">
+                <img src="/Categories/bag.png" class="card-img-top" alt="...">
+
+                <h6 class="text-center">Bag</h6>
+
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-center mb-4">
+                <div class="card card-item category-item">
+                  <img src="/Categories/perfume.png" class="img-fluid" alt="...">
+                  <h6 class="text-center">Beauty</h6>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="card card-item category-item">
+                  <img src="/Categories/shoe.png" class="img-fluid" alt="...">
+
+                  <h6 class="text-center">Shoe</h6>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+          <img src="/Categories/pale-order.png" class="d-block w-100" alt="..">
+        </div>
+      </div>
+    </div>
+</section>
+
+<footer>
+  &copy; All rights reserved by <a href="https://www.facebook.com/profile.php?id=100009756513444" id="footer" >S.Sirzil Shanon</a>
+</footer>
+
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     
   </body>
